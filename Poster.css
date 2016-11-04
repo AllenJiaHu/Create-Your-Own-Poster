@@ -1,0 +1,89 @@
+/*Invisible elements shown*/
+* {
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+/*font-family: 'Quicksand', sans-serif;
+online resource*/
+
+body {
+	background-color: #D3D3D3;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#container {
+	height:1632px;
+	width:1056px;
+	position: absolute;
+	user-select:none;
+	background-color: #fff;
+	margin: 10px;
+	overflow: auto;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+
+/*	background-color: rgba(243, 6, 255, 0.5);
+color setting*/
+
+/*PRIMARY ELEMENTS IN THE POSTER*/
+.bandstrip {
+	width: 1056px;
+	height: 200px;
+	top: 200px;
+	position: absolute;
+	text-align: center;
+}
+
+.datestrip {
+	width: 500px;
+	height: 100px;
+	top: 900px;
+	right: 0;
+	position: absolute;
+}
+
+.locationstrip {
+	width: 600px;
+	height: 270px;
+	top: 1000px;
+	right: 0;
+	position: absolute;
+}
+
+.ticketpurchasestrip {
+	width: 600px;
+	height: 330px;
+	top: 1100px;
+	right: 0;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+#buttonsection {
+	position: absolute;
+	right: 0;
+	right: 20px;
+}
+
+button {
+	background-color: #000;
+    border: none;
+    color: white;
+    text-align: left;
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+}
